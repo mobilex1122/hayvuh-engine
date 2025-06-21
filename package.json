@@ -2,6 +2,7 @@
   "name": "hayvuh-engine",
   "version": "0.0.0-beta",
   "description": "JS Based game engine heavily inspired by Impact",
+  "repository": "https://github.com/mobilex1122/hayvuh-engine",
   "main": "index.mjs",
   "types": "types/index.d.ts",
   "scripts": {
