@@ -3,8 +3,10 @@
   "version": "0.0.0-beta",
   "description": "JS Based game engine heavily inspired by Impact",
   "main": "index.mjs",
+  "types": "types/index.d.ts",
   "scripts": {
-    "test": "echo \"Running Tests...\" && eslint"
+    "test": "echo \"Running Tests...\" && eslint",
+    "build": "tsc"
   },
   "keywords": [
     "game-framework",
@@ -15,12 +17,13 @@
     "email": "contact@janp.cz",
     "url": "https://janp.cz"
   },
-  "license": "ISC",
+  "license": "MIT",
   "packageManager": "pnpm@10.12.1",
   "devDependencies": {
     "@eslint/js": "^9.29.0",
     "eslint": "^9.29.0",
     "eslint-plugin-jsdoc": "^51.1.1",
-    "globals": "^16.2.0"
+    "globals": "^16.2.0",
+    "typescript": "^5.8.3"
   }
 }
