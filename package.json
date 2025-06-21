@@ -1,6 +1,6 @@
 {
   "name": "hayvuh-engine",
-  "version": "0.0.0a",
+  "version": "0.0.0b",
   "description": "JS Based game engine heavily inspired by Impact",
   "repository": "https://github.com/mobilex1122/hayvuh-engine",
   "main": "index.mjs",
