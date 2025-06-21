@@ -5,7 +5,7 @@
   "main": "index.mjs",
   "types": "types/index.d.ts",
   "scripts": {
-    "test": "echo \"Running Tests...\" && eslint",
+    "test": "tsc --noEmit",
     "build": "tsc"
   },
   "keywords": [
