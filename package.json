@@ -1,0 +1,26 @@
+{
+  "name": "hayvuh-engine",
+  "version": "0.0.0-beta",
+  "description": "JS Based game engine heavily inspired by Impact",
+  "main": "index.mjs",
+  "scripts": {
+    "test": "echo \"Running Tests...\" && eslint"
+  },
+  "keywords": [
+    "game-framework",
+    "game"
+  ],
+  "author": {
+    "name": "Jan Palma",
+    "email": "contact@janp.cz",
+    "url": "https://janp.cz"
+  },
+  "license": "ISC",
+  "packageManager": "pnpm@10.12.1",
+  "devDependencies": {
+    "@eslint/js": "^9.29.0",
+    "eslint": "^9.29.0",
+    "eslint-plugin-jsdoc": "^51.1.1",
+    "globals": "^16.2.0"
+  }
+}
