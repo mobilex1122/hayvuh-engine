@@ -3,27 +3,13 @@ export class Color {
     /** @public */
     hex;
     
-    /**
-     * 
-     * @param {string} hex 
-     */
-    constructor(hex) {
+    constructor(hex:string) {
         this.hex = hex;
     }
 
-    /**
-     * Create Color from Hex
-     * @param {string} hex 
-     * @returns Color
-     */
-    static fromHEX(hex) {
+    static fromHEX(hex:string) {
         return new Color(hex)
     }
-
-
-
-
-
 
     static BLACK = new Color("#000")
     static WHITE = new Color("#fff")

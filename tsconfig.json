@@ -3,15 +3,16 @@
         "target": "es2022", // Specify ECMAScript target version
         "module": "es2022", // Specify module code generation
         "declaration": true, // Generate .d.ts files
-        "outDir": "./types", // Output directory for .d.ts files
+        "outDir": "./dist", // Output directory for .d.ts files
         "allowJs": true, // Allow JavaScript files to be compiled
         "checkJs": true, // Enable type checking on JavaScript files
         "strict": true,
         "noImplicitAny": true,
         "forceConsistentCasingInFileNames": true,
+        "stripInternal": true,
     },
     "include": [
         "./engine/**/*",
-        "./index.mjs"
+        "index.ts"
     ],
 }
