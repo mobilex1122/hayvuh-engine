@@ -3,11 +3,12 @@
   "version": "0.0.0b",
   "description": "JS Based game engine heavily inspired by Impact",
   "repository": "https://github.com/mobilex1122/hayvuh-engine",
-  "main": "index.mjs",
-  "types": "types/index.d.ts",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
   "scripts": {
     "test": "tsc --noEmit",
-    "build": "tsc"
+    "build": "tsc",
+    "dev": "tsc --watch"
   },
   "keywords": [
     "game-framework",
@@ -26,5 +27,8 @@
     "eslint-plugin-jsdoc": "^51.1.1",
     "globals": "^16.2.0",
     "typescript": "^5.8.3"
+  },
+  "dependencies": {
+    "jsdoc": "^4.0.4"
   }
 }
